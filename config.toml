@@ -7,10 +7,10 @@ theme = "spectral"
 #googleAnalytics = "G-XXXXXXXXXX"
 
 [params]
-fancyTitle = "Spectral" # title for frontpage, may include image
-copyright = "John Doe"
-description = 'Another fine responsive<br />site template freebie<br />crafted by <a href="http://html5up.net">HTML5 UP</a>.<br />Ported to <a href="//gohugo.io">Hugo</a> by Simon Bruder.'
-startbuttonText = "Activate"
+fancyTitle = "HouseWorks" # title for frontpage, may include image
+copyright = "TBD Ltd."
+description = 'Another fine new venture, prototyped, modelled, tested, and ready to go.'
+startbuttonText = "HouseWorks"
 startbuttonLink = "#"
 body_is_markdown = true
 #custom_css = "foo.css"
@@ -22,8 +22,8 @@ url = '/'
 title = "Home"
 
 [[params.menu.main]]
-url = '/posts/'
-title = "Posts"
+url = '/news/'
+title = "News"
 
 [taxonomies]
     tag = "tags"
@@ -117,7 +117,7 @@ body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet elei
 
 [[params.cta.link]]
 href = "#"
-text = "Activate"
+text = "HouseWorks"
 special = true
 
 [[params.cta.link]]
@@ -131,7 +131,7 @@ title = "Contact"
 body = "Leave us a message."
 phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
+email = "hello@theprivatealpha.com"
 subject = "New Submission!"
 formspree_form_id = "example_invalid"
 
