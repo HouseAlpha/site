@@ -1,5 +1,0 @@
-baseURL = 'https://houseworks.theprivatealpha.com'
-languageCode = 'en-gb'
-title = 'HouseWorks Dev Site'
-
-theme = 'spectral'
