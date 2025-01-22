@@ -25,6 +25,10 @@ title = "Home"
 url = '/news/'
 title = "News"
 
+[[params.menu.main]]
+url = '/case/'
+title = "The case"
+
 [taxonomies]
     tag = "tags"
     category = "categories"
