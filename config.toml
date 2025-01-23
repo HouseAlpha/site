@@ -9,6 +9,7 @@ theme = "spectral"
 [params]
 fancyTitle = "HouseWorks" # title for frontpage, may include image
 copyright = "TBD Ltd."
+designer = "RC Inc."
 description = 'Another fine new venture, prototyped, modelled, tested, and ready to go.'
 startbuttonText = "HouseWorks"
 startbuttonLink = "#"
