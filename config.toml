@@ -36,24 +36,23 @@ title = "The case"
 
 [params.one]
 enable = true
-title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
+title = 'Houseworks is a digital service helping homeowners maintain the value of the work they do to their property.'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+We maintain a digital twin of your property, keeping the records of underlying detail on your house, so that when it comes time that it's no longer your house, there is a digital asset to go along with the physical.
 '''
 
 [[params.one.icon]]
-icon = "fa-gem"
+icon = "solid fa-house"
 style = "1"
 label = "Lorem"
 
 [[params.one.icon]]
-icon = "fa-heart"
+icon = "solid fa-folder"
 style = "2"
 label = "Ipsum"
 
 [[params.one.icon]]
-icon = "solid fa-code"
+icon = "solid fa-gbp"
 style = "3"
 label = "Dolor"
 
@@ -63,77 +62,81 @@ enable = true
 [[params.two.section]]
 img = "img/pic01.jpg"
 img_alt = "blurry background: white/grey"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Point 1: People are lazy and not good at record keeping'
+body = 'When they do the work on a property, they will do the work on the property. But then, overall record keeping for posterity is often not done. We help them keep the records, structured and useful.'
 
 [[params.two.section]]
 img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Point 2: People do works infrequently'
+body = 'They want the best value of work done at the pricepoint they can afford. But there are challenging dynamics in the supplier market and often the buyer isnt as informed as they need. We help them find, maintain and control qualified contractors undertaking their works'
 
 [[params.two.section]]
 img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+title = 'Point 3: There is a long time between works and recovery of value of those works'
+body = 'When one does works on a property, eventually the value of those works fade into the sale of the house. We help them keep the records so that value hidden behind the walls can be recognised and recovered.'
+
+[[params.two.section]]
+img = "img/pic04.jpg"
+title = 'Point 4: We are at the beginning of a new era of digital property'
+body = 'This generation of homeowners are the first to have the digital tools to manage their property. We help them maintain their records and details for posterity and long-term value.'
 
 [params.three]
 enable = true
-title = 'Accumsan mus tortor nunc aliquet'
+title = 'How it works'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+We create a digital twin of your property asset and keep proper records to make sure you get best return on the nature of your property investment.
 '''
 
 [[params.three.feature]]
-icon = "fa-paper-plane"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
-
-[[params.three.feature]]
 icon = "solid fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Digital service"
+body = "A web service that is your one stop shop for all things property."
 
 [[params.three.feature]]
-icon = "solid fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+icon = "solid fa-tv"
+title = "Keep track of your assets"
+body = "A record of the items in the property and their condition, warranty info, lifespan and maintenance history."
 
 [[params.three.feature]]
-icon = "solid fa-headphones-alt"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+icon = "solid fa-lightbulb"
+title = "Bills and utilities"
+body = "Get the best value for your spend on bills by keeping track of your usage and costs."
 
 [[params.three.feature]]
-icon = "fa-heart"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+icon = "solid fa-newspaper"
+title = "Industry and sector news"
+body = "Keep up to date with the latest news on property in your city."
 
 [[params.three.feature]]
-icon = "fa-flag"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+icon = "solid fa-street-view"
+title = "Local activity"
+body = "Whats happening in your area, with planning applications and events, and how it might affect your property."
+
+[[params.three.feature]]
+icon = "solid fa-hospital"
+title = "Government offers"
+body = "Grants and discounts for improvement / sustainabilityactivity you might undertake."
 
 [params.cta]
 enable = true
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+title = "HouseWorks"
+body = "A project that is helping homeowners rely on more than just historical records -- bringing property into the 21st century."
 
 [[params.cta.link]]
-href = "#"
-text = "HouseWorks"
+href = "/news"
+text = "Housing news"
 special = true
 
 [[params.cta.link]]
-href = "#"
-text = "Learn More"
+href = "/case"
+text = "The case"
 special = false
 
 [params.contact]
 enable = true
 title = "Contact"
 body = "Leave us a message."
-phone = "+49 (0) 030 000 000"
+#phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
 email = "hello@theprivatealpha.com"
 subject = "New Submission!"
